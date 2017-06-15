@@ -2765,3 +2765,309 @@ Processing by QuotesController#index as HTML
 Completed 200 OK in 3967ms (Views: 3944.5ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 04:54:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 367ms (Views: 346.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2582ms (Views: 2497.1ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (10.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 412ms (Views: 379.6ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 297ms (Views: 259.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 312ms (Views: 273.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.0ms)
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:20 +0000
+  Rendering quotes/index.html.erb within layouts/application
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Processing by QuotesController#index as HTML
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mQuote Load (49.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (77.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.6ms)
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1349ms (Views: 1306.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (7.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1678ms (Views: 1650.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (19.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 1843ms (Views: 1796.2ms | ActiveRecord: 0.7ms)
+
+
+  Rendering quotes/index.html.erb within layouts/application
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:22 +0000
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (23.9ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 1803ms (Views: 1633.1ms | ActiveRecord: 49.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendering quotes/index.html.erb within layouts/application
+Processing by QuotesController#index as HTML
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1677ms (Views: 1524.6ms | ActiveRecord: 77.7ms)
+
+
+  [1m[36mQuote Load (10.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for 10.0.2.2 at 2017-06-15 04:58:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (6.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.7ms)
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1724ms (Views: 1677.4ms | ActiveRecord: 7.2ms)
+
+
+Completed 200 OK in 1607ms (Views: 1525.1ms | ActiveRecord: 19.7ms)
+
+
+Completed 200 OK in 1469ms (Views: 1376.2ms | ActiveRecord: 23.9ms)
+
+
+Completed 200 OK in 1261ms (Views: 1146.8ms | ActiveRecord: 10.8ms)
+
+
+Completed 200 OK in 1088ms (Views: 990.6ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 04:58:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (276.8ms)
+Completed 200 OK in 612ms (Views: 588.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 04:59:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 276ms (Views: 260.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 05:00:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 279ms (Views: 265.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:01:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 294ms (Views: 255.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 05:01:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 307ms (Views: 280.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 05:01:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 275ms (Views: 253.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 05:02:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 4288ms (Views: 4274.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:02:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 334ms (Views: 306.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:02:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 320ms (Views: 293.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:03:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 330ms (Views: 300.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:03:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 330ms (Views: 299.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 05:03:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 357ms (Views: 308.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:03:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 341ms (Views: 300.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 05:03:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 362ms (Views: 333.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:03:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 329ms (Views: 291.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:04:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 349ms (Views: 311.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:04:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 286ms (Views: 257.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:04:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.9ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 310ms (Views: 259.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2017-06-15 05:04:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 310ms (Views: 286.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-06-15 05:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 341ms (Views: 293.8ms | ActiveRecord: 0.6ms)
+
+
