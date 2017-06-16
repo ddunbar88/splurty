@@ -83,9 +83,23 @@ h2 {
  font-family: "source_sans_proregular", Helvetica, sans-serif;
 }
 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+.modal {
+  font-family: "source_sans_proregular", Helvetica, sans-serif;
+}
 
+h2 span {
+  color: #dddddd;
+  font-family: "source_sans_proregular", Helvetica, sans-serif;
+}
 
-
+::selection {
+  background-color: #f84342;
+}
 
 
 
