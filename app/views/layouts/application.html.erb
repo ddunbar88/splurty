@@ -4,8 +4,10 @@
     <title>Splurty</title>
     <%= csrf_meta_tags %>
 
+    <!-- Removed Turbo Links
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    -->
   </head>
 
   <body>
@@ -45,7 +47,7 @@
           </div>
         <%= simple_form_for Quote.new do |f| %>
         <div class="modal-body">
-          <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "A routine is not a routine if you have to think about it." %>
+          <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "A routine is not a routine if you have to think about it.", size: 50 %>
           <br />
           <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Davis Love Jr." %>
         </div>
@@ -65,7 +67,7 @@
 <div class="container">
   <% if flash[:error].present? %>
     <div class="col-10 offset-1 alert alert-danger">
-      <%= flash[:error] %>
+      <%= flash[:error].html_safe %>
     </div>
   <% end %>
   <%= yield %>
